@@ -4,7 +4,6 @@ import Home from './components/Home'
 import Deals from './components/Deals'
 import PhoneDevices from './components/Phone&Devices'
 import Internet from './components/Internet'
-import Footer from "./components/Footer";
 import Account from "./components/Account"
 import { createContext, useState } from "react";
 
@@ -25,7 +24,6 @@ function App() {
             <Route path="/account" element={<Account />} />
           </Routes>
         </Router>
-        <Footer />
       </UsernameContext.Provider>
     </div>
   );
